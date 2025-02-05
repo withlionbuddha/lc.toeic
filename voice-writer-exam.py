@@ -2,7 +2,7 @@ import whisper
 import os
 import numpy as np
 
-audio_path = r"F:/examination/workspace/lc.toeic/resource/mp3/AComprehensiveTOEICLCMP3/unit/03 PART 2/CH05_01.mp3"
+audio_path = r"./resource/mp3/AComprehensiveTOEICLCMP3/unit/03 PART 2/CH05_01.mp3"
 
 class VOICEWIRTER :
 
@@ -23,7 +23,7 @@ class VOICEWIRTER :
         result = model.transcribe(audio_data, language="en")  # 영문 음성
             
         transcribed_text = result["text"]
-        print(f"----------- text -------------")
+        print(f"[voicewriter]--------------------------")
         print(f"{transcribed_text}")
 
     def _check_file(self) :
