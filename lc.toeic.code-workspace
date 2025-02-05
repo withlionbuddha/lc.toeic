@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.intergrated.env.windows": {
+			"WORKSPACE_FOLDER" : "${workspaceFolder}"
+		}
+    }
+}

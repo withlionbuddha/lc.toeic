@@ -1,0 +1,7 @@
+# numpy
+numpy==2.0.2
+ 
+# openai
+openai-whisper
+pydub 
+ffmpeg-python
