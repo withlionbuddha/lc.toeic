@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"terminal.intergrated.env.windows": {
+		"terminal.integrated.env.windows": {
 			"WORKSPACE_FOLDER" : "${workspaceFolder}"
 		}
     }
