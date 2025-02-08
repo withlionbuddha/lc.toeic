@@ -9,7 +9,7 @@ class VOICEWRITER :
     def __init__(self, file_path):
         self.file_path = file_path
     
-    def writer(self) :
+    def write(self) :
         
         self._check_file()
         
@@ -49,4 +49,4 @@ class VOICEWRITER :
 
 if __name__ == "__main__":
     voiceWriter = VOICEWRITER(audio_path)
-    voiceWriter.writer()
+    voiceWriter.write()
